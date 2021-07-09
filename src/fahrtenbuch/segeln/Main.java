@@ -42,7 +42,7 @@ public class Main {
 		mail.sendMail("test Betreff3","Test Body","timoengelberts@googlemail.com");
 		mail.sendMail("test Betreff4","Test Body","timoengelberts@googlemail.com");*/
 		
-		new Fahrt().startFahrt();
+		
 	}
 
 }
