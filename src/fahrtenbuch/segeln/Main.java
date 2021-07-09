@@ -1,5 +1,6 @@
 package fahrtenbuch.segeln;
 
+import java.sql.SQLException;
 import java.util.List;
 
 import fahrtenbuch.Mail.MailTest;
@@ -26,7 +27,12 @@ public class Main {
 		
 		database_Conection connection = database_Conection.getInstance();
 		connection.createNewDatabase("test.db");
-		
+		try {
+			connection.initialise();
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		 
 
 		MailTest mail = MailTest.getInstance();
