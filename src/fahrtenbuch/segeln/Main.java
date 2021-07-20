@@ -14,7 +14,7 @@ import fahrtenbuch.gui.Gui;
 public class Main {
 
 	public static void main(String[] args) {
-
+//dfdsf
 		/*Person p1 = new Person("test 1", "timoengelberts@googlemail.com");
 
 		List<Boot> alleBoote = new BootReader().getAlleBoote();
@@ -86,7 +86,7 @@ class RunnableDemo implements Runnable {
 	      System.out.println("Running " +  threadName );
 
 			MailTest mail = MailTest.getInstance();
-			mail.sendMail(threadName+"Betreff","Test Body" + threadName,"timoengelberts@googlemail.com");
+			//mail.sendMail(threadName+"Betreff","Test Body" + threadName,"timoengelberts@googlemail.com");
 	    /*  try {
 	         for(int i = 40; i > 0; i--) {
 	            System.out.println("Thread: " + threadName + ", " + i);
