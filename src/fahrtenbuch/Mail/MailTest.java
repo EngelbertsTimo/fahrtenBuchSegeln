@@ -62,7 +62,7 @@ public void sendMail(String betreff,String body, String empfaenger) {
 	try {
 		Message message = prepareMessage(session, myAccount, empfaenger, betreff,body);
 		Transport.send(message); // E-Mail senden!
-		System.out.println("E-Mail erfolgreich versendet!");
+		System.out.println("E-Mail erfolgreich versendet!" + betreff);
 	} catch (Exception e1) {
 		// TODO Auto-generated catch block
 		e1.printStackTrace();
